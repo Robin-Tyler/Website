@@ -1,0 +1,242 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("cake.gif");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+header{
+    background: rgb(252, 136, 152,0.5);
+    padding: 15px;
+    box-shadow: 0 0 3px #000;
+    text-align: center;
+}
+
+header li{
+    display: inline;
+    padding-left: 45px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+
+}
+
+header li a:hover{
+    color:#5C2C26;
+
+}
+
+header ul #login a{
+    color: #fff;
+    background-color: #5C2C26;
+    border-radius: 30px;
+    float: right;
+    position:relative;
+    top:-15px;
+    margin-left: 200px
+
+}
+header li img{
+    width: 250px;
+    float: left;
+    margin-top: -25px;
+    margin-left: -70px;
+
+}
+
+
+
+/* Navigation Bar*/
+.topnav {
+  overflow: hidden;
+  width: 400px;
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.4);
+  background-color: #fc8898;
+  opacity: 80%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #5C2C26;
+  color: white;
+}
+
+/*Search Bar*/
+.search-bar{
+    position: absolute;
+    top: 5.5%;
+    left:82%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 35px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-bar:hover > .search-txt{
+    width:240px;
+    padding: 0, 6px;
+}
+
+.search-bar:hover > .search-btn{
+    background: white;
+}
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color:white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+/*Login icon*/
+.login{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Footer*/
+  .footer {
+    padding: 5px;
+    text-align: center;
+    background-color: #fc8898;
+    margin-top: 5px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  
+  
+ /*Icons Footer*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+   /*Body columns(Categories)*/
+.columnBig{
+    float: left;
+    width: 80%;
+    padding: 5px;
+  }
+     /*3 Columns*/
+  .column {
+    column-gap: 10px;
+    float:right;
+    width: 29%;
+    padding: 5px;
+    text-align: center;
+    margin-right: 10px;
+  
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+}
