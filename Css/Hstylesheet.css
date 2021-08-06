@@ -81,11 +81,17 @@ header li img{
   color: white;
 }
 
+/*Basket Icon*/
+.fa-shopping-basket{
+   margin-left: 25px ;
+   
+}
+
 /*Search Bar*/
 .search-bar{
     position: absolute;
-    top: 5.5%;
-    left:82%;
+    top: 5.7%;
+    left:83%;
     transform: translate(-50%, -50%);
     background: #2f3640;
     height: 35px;
